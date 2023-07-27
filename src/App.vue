@@ -5,6 +5,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import { getApi } from './getApi.js'
 
 export default {
   name: 'App',
@@ -12,6 +13,8 @@ export default {
     HelloWorld
   }
 }
+
+getApi();
 </script>
 
 <style>
